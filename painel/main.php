@@ -19,6 +19,9 @@
     <a href="<?php echo INCLUDE_PATH_PAINEL; ?>?loggout">
       Sair
     </a>
+    <a href="<?php echo INCLUDE_PATH_PAINEL; ?>chat">
+      Chat Online
+    </a>
   </header>
   <section class="container">
     <aside class="sidebar">

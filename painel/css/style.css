@@ -117,3 +117,66 @@ body {
   top: 100px;
   padding: 40px;
 }
+
+.box-chat-online {
+  height: 300px;
+  overflow-y: scroll;
+  padding: 20px;
+  background-color: #fff;
+  max-width: 700px;
+  border: 1px solid #222;
+}
+
+.mensagem-chat {
+  background-color: #3377ff;
+  color: #fff;
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.mensagem-chat span {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.enviar-mensagem {
+  background-color: #222;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.enviar-mensagem h2 {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.enviar-mensagem textarea {
+  width: 400px;
+  height: 100px;
+  resize: none;
+}
+
+.enviar-mensagem input[type="submit"] {
+  background-color: #3377ff;
+  color: #fff;
+  padding: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 8px;
+  border: none;
+  cursor: pointer;
+}

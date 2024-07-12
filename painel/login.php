@@ -17,7 +17,9 @@
 
           $sql = MySql::connect()->prepare("SELECT * FROM `usuarios_admin` WHERE user = ? AND password = ?");
           $sql->execute(array($user, $password));
+          $infoUser = $sql->fetch();
           if ($sql->rowCount() === 1) {
+            $_SESSION['id_user'] = $infoUser['id'];
             $_SESSION['login'] = true;
             $_SESSION['user'] = $user;
             $_SESSION['password'] = $password;
